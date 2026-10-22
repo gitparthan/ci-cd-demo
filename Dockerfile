@@ -1,6 +1,8 @@
 
 FROM python:3.11-slim
 
+LABEL org.opencontainers.image.source="https://github.com/gitparthan/ci-cd-demo"
+
 WORKDIR /app
 
 COPY requirements.txt .
